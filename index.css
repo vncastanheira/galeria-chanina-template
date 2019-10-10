@@ -11,6 +11,10 @@ header {
     font-size: 0.6em;
 }
 
+#logo {
+    display: block;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -54,11 +58,16 @@ header {
     bottom: auto;
     right:0;
     height: 100%;
-    width: 50%;
+    width: 0%;
+    transition: 0.5s;
     background-color: darkorange;
 }
 
 @media screen and (max-width: 400px) {
+    header {
+        position: absolute;
+    }
+
     .short {
         flex: 100%;
         background-color: green;
@@ -81,8 +90,6 @@ header {
     }
 
     #menu {
-        width: 75%;
         background: darkorchid;
-        transition: 0.5s;
     }
 }

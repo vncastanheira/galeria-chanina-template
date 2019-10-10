@@ -1,4 +1,4 @@
-var opened = true; 
+var opened = false; 
 function toggleMenu() {
     var menu = document.getElementById("menu")
     if (opened) {
