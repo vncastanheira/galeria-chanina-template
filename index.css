@@ -1,0 +1,51 @@
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    background-color: darkkhaki;
+    z-index: 1;
+    font-size: 0.6em;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: absolute;
+    top: 80px;
+}
+
+.container > div {
+    padding: 10px;
+    margin: 10px 20px 20px 5px;
+    height: 250px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.large {
+    flex: 100%;
+    background-color: darkcyan;
+}
+
+.short {
+    flex: 1;
+    background-color: cyan;
+}
+
+.menu {
+    position: fixed;
+    top:10px;
+    right: 10px;
+}
+
+@media screen and (max-width: 400px) {
+    .short {
+        flex: 100%;
+        background-color: green;
+    }
+}
