@@ -83,5 +83,6 @@ header {
     #menu {
         width: 75%;
         background: darkorchid;
+        transition: 0.5s;
     }
 }
