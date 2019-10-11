@@ -23,7 +23,7 @@ header {
     top: 80px;
 }
 
-.container > div {
+.container>div {
     padding: 10px;
     margin: 10px 20px 20px 5px;
     height: 250px;
@@ -41,55 +41,68 @@ header {
     background-color: cyan;
 }
 
-#hamburger-menu {
+#btn-menu-large {
+    display: block;
     position: absolute;
-    top:25%;
+    top: 25%;
     bottom: auto;
     right: 50px;
     font-size: 3em;
     text-align: center;
     text-decoration: none;
-    background: whitesmoke;
+    background-color: #fff;
+    z-index: 3;
+}
+
+#btn-menu-small {
+    display: none;
 }
 
 #menu {
     position: fixed;
-    top:0;
+    display: block;
+    top: 0;
     bottom: auto;
-    right:0;
+    right: 0;
     height: 100%;
     width: 0%;
     transition: 0.5s;
-    background-color: darkorange;
+    background-color: rgba(131, 131, 131, 0.822);
 }
 
 @media screen and (max-width: 400px) {
     header {
         position: absolute;
     }
-
     .short {
         flex: 100%;
         background-color: green;
     }
-
-    #hamburger-menu {
+    #btn-menu-large {
+        display: none;
+    }
+    #btn-menu-small {
+        display: block;
         position: fixed;
-        top:auto;
+        top: auto;
         bottom: 50px;
+        right: 50px;
         height: 50px;
         width: 50px;
+        font-size: 3em;
+        text-align: center;
+        text-decoration: none;
+        background: whitesmoke;
         border-radius: 50px;
+        z-index: 3;
     }
-    
-    #hamburger-menu > i 
-    {
-        color:black;
+    #btn-menu-small>i {
+        color: black;
         font-size: 18px;
         vertical-align: middle;
     }
-
     #menu {
         background: darkorchid;
+        z-index: 2;
     }
 }

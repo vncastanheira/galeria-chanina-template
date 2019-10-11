@@ -11,8 +11,9 @@
 <body>
     <header>
         <h1 id="logo">Logo Aqui</h1>
-        <a id="hamburger-menu" href="#menu" onclick="toggleMenu()" ><i>menu</i></a>
+        <a id="btn-menu-large" href="#menu" onclick="toggleMenu()" ><i>menu</i></a>
     </header>
+    <a id="btn-menu-small" href="#menu" onclick="toggleMenu()" ><i>menu</i></a>
     <div class="container">
         <div class="large">Artista Destaque</div>
         <div class="short">Outro Artista</div>
@@ -28,7 +29,11 @@
         <div class="short">Outro Artista</div>
     </div>
     <div id="menu">
-
+        <ul>
+            <li>Início</li>
+            <li>Lista de Artistas</li>
+            <li><input type="text" placeholder="Pesquisa"></li>
+        </ul>
     </div>
 </body>
 </html>
