@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
+<g>
+	<line fill="none" stroke="#000000" stroke-width="10" stroke-miterlimit="10" x1="56" y1="24" x2="91" y2="64"/>
+</g>
+<line fill="none" stroke="#000000" stroke-width="10" stroke-miterlimit="10" x1="26" y1="74" x2="78" y2="89"/>
+<line fill="none" stroke="#000000" stroke-width="10" stroke-miterlimit="10" x1="76" y1="122" x2="39" y2="150"/>
+<line fill="none" stroke="#000000" stroke-width="10" stroke-miterlimit="10" x1="95" y1="142" x2="62" y2="178"/>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="43" y="29" width="68" height="142"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<g clip-path="url(#SVGID_2_)">
+		<circle fill="#FFFFFF" cx="114" cy="100" r="66"/>
+		<path d="M114,39c33.64,0,61,27.36,61,61s-27.36,61-61,61s-61-27.36-61-61S80.36,39,114,39 M114,29c-39.21,0-71,31.79-71,71
+			s31.79,71,71,71s71-31.79,71-71S153.21,29,114,29L114,29z"/>
+	</g>
+</g>
+<path fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M109.01,79.9c-11.24-3.14-22.97,2.18-27.8,12.22
+	c-4.85,10.09-1.23,21.79,6.04,28.12c10.69,9.3,28.85,6.6,36.26-4.89c5.19-8.04,5.68-21.28-2.42-28.12
+	c-9.46-7.99-26.4-3.67-31.42,7.33c-3.4,7.44-1.91,19.15,6.04,23.23c8.75,4.48,21.78-2.08,22.96-11c0.95-7.2-5.76-16.4-13.29-15.89
+	c-5.69,0.38-12.08,6.31-10.88,12.22c1.01,4.99,7.27,9.22,12.09,7.33c4.58-1.79,6.92-8.73,4.83-11c-1.51-1.64-5.52-1.07-9.67,1.22"/>
+</svg>

@@ -18,9 +18,12 @@
 <body>
     <header>
         <h1 id="logo">Galeria Chanina</h1>
-        <a id="btn-menu-large" href="#menu" onclick="toggleMenu()"><i>menu</i></a>
+        <a id="btn-menu-large" href="#menu" onclick="toggleMenu()">
+            <i>menu</i></a>
     </header>
-    <a id="btn-menu-small" href="#menu" onclick="toggleMenu()"><i>menu</i></a>
+    <a id="btn-menu-small" href="#menu" onclick="toggleMenu()">
+        <img src="logo.svg" alt="menu"></img>
+    </a>
     <div class="container">
         <div class="large">Artista Destaque</div>
         <div class="short">Outro Artista</div>
@@ -39,7 +42,11 @@
         <ul id="menu-list">
             <li><a href="">Início</a></li>
             <li><a href="">Artistas</a></li>
-            <li><input type="text" placeholder="Pesquisa"></li>
+            <li>
+                <form action="">
+                    <input type="text" placeholder="Pesquisa">
+                </form>
+            </li>
         </ul>
     </div>
 </body>
