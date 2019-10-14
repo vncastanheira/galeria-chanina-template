@@ -1,21 +1,21 @@
 const menu = document.getElementById("menu")
 let opened = false;
-function closeMenu(e) {
+function closeMenu() {
     menu.style.width = "0%"
     opened = false;
 }
 
-function openMenu(e) {
+function openMenu() {
     menu.style.width = "75%"
     opened = true;
 }
 
-$("#btn-menu-small").click(function (event) {
+$("#btn-menu-small").click(function (e) {
     openMenu();
     e.stopPropagation();
 })
 
-$("#btn-menu-large").click(function (event) {
+$("#btn-menu-large").click(function (e) {
     openMenu();
     e.stopPropagation();
 })
