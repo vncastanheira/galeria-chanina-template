@@ -5,23 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
-    <script>
-        window.onload = () => {
-            toggleMenu();
-        }
-    </script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
     <title>Galeria Chanina</title>
 </head>
 
 <body>
     <header>
         <h1 id="logo">Galeria Chanina</h1>
-        <a id="btn-menu-large" href="#menu" onclick="toggleMenu()">
-            <i>menu</i></a>
+        <a id="btn-menu-large" class="material-icons" href="#menu">
+            dehaze</a>
     </header>
-    <a id="btn-menu-small" href="#menu" onclick="toggleMenu()">
+    <a id="btn-menu-small" href="#menu">
         <img src="logo.svg" alt="menu"></img>
     </a>
     <div class="container">
@@ -39,9 +35,13 @@
         <div class="short">Outro Artista</div>
     </div>
     <div id="menu">
+        <a id="menu-close" href="#menu" onclick="closeMenu()">
+            <i class="material-icons">close</i>
+        </a>
         <ul id="menu-list">
             <li><a href="">Início</a></li>
             <li><a href="">Artistas</a></li>
+            <li><a href="">Sobre a Galeria</a></li>
             <li>
                 <form action="">
                     <input type="text" placeholder="Pesquisa">
@@ -50,5 +50,8 @@
         </ul>
     </div>
 </body>
+<footer>
+    <script src="index.js"></script>
+</footer>
 
 </html>
