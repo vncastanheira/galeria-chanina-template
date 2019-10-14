@@ -1,4 +1,5 @@
 const menu = document.getElementById("menu")
+const menuMaxSize = "50%";
 let opened = false;
 function closeMenu() {
     menu.style.width = "0%"
@@ -6,7 +7,7 @@ function closeMenu() {
 }
 
 function openMenu() {
-    menu.style.width = "75%"
+    menu.style.width = menuMaxSize
     opened = true;
 }
 

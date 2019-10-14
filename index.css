@@ -1,18 +1,38 @@
+html {
+    --header-height: 80px;
+}
 header {
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
-    width: 97vw;
-    padding: 1vw;
     margin: 0;
     z-index: 1;
-    font-size: 0.6em;
+    width: 100%;
+    height: var(--header-height);
+    font-size: 1em;
     background-color: whitesmoke;
+}
+
+#btn-menu-large {
+    display: block;
+    position: absolute;
+    top: 25%;
+    bottom: auto;
+    right: 50px;
+    font-size: 3em;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+#btn-menu-small {
+    display: none;
 }
 
 #logo {
     display: block;
+    left: 50px;
 }
 
 .container {
@@ -20,7 +40,7 @@ header {
     flex-flow: row wrap;
     position: absolute;
     justify-content: center;
-    top: 80px;
+    top: calc(var(--header-height) + 20px);
     left: 20px;
     right: 20px;    
 }
@@ -40,29 +60,16 @@ header {
 
 .banner-short {
     flex: 1;
-    background-color: cyan;
+    background-color: goldenrod;
 }
 
 .fit-image {
-    max-width: 100%;
+    width: 100%;
     height: 100%;
+    object-fit: cover;
+    object-position: top;
 }
 
-#btn-menu-large {
-    display: block;
-    position: absolute;
-    top: 25%;
-    bottom: auto;
-    right: 50px;
-    font-size: 3em;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-}
-
-#btn-menu-small {
-    display: none;
-}
 
 #menu {
     position: fixed;
@@ -73,7 +80,7 @@ header {
     height: 100%;
     width: 0%;
     transition: 0.5s;
-    background: hsla(280, 61%, 50%, 0.767);
+    background: hsla(279, 15%, 22%, 0.925);
     z-index: 3;
 }
 
@@ -84,8 +91,9 @@ header {
     right: auto;
     bottom: auto;
 }
+
 #menu-close > i {
-    color: black;
+    color: white;
     font-size: 3.2em;
 }
 
@@ -93,9 +101,9 @@ header {
     display: block;
     position: absolute;
     top: 100px;
-    right: auto;
-    left: auto;
-    width: 75%;
+    width: 100%;
+    margin: 0;
+    padding: 0;;
 }
 
 #menu-list > li {
@@ -117,7 +125,6 @@ header {
     }
     .banner-short {
         flex: 100%;
-        background-color: green;
     }
     #btn-menu-large {
         display: none;
